@@ -8,7 +8,7 @@ dotenv.config();
 
 // --- Express Server Setup ---
 const app = express();
-const port = 3000; // You can change the port if you like
+const port = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors()); // Enable Cross-Origin Resource Sharing

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const userInput = document.getElementById("user-input");
     const chatBox = document.getElementById("chat-box");
     const typingIndicator = document.getElementById("typing-indicator");
-    const serverUrl = "http://localhost:3000";
+    // const serverUrl = "http://localhost:3000";
 
     let conversationHistory = [];
 
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const historyForAPI = [...conversationHistory];
         
         try {
-            const response = await fetch(`${serverUrl}/chat`, {
+            const response = await fetch(`/chat`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
