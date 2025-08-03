@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Ayushi 💖</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="avatar">A</div>
+            <div class="chat-info">
+                <h2>Ayushi</h2>
+                <p>Online</p>
+            </div>
+        </div>
+        <div class="chat-box" id="chat-box">
+            <div class="message ayushi-message">
+                <p>Hii baby .🥰 </p>
+            </div>
+            <div class="message ayushi-message typing-indicator" id="typing-indicator">
+                <p>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </p>
+            </div>
+        </div>
+        <form class="chat-input-form" id="chat-form">
+            <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off" required>
+            <button type="submit" aria-label="Send Message">
+                <svg viewBox="0 0 24 24">
+                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+                </svg>
+            </button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
