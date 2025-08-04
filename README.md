@@ -6,13 +6,6 @@ A simple, persona-driven web chatbot powered by the Google Gemini API and deploy
 
 ---
 
-## ✨ Demo
-
-Here's a look at the final chat interface.
-
-[Image of the Ayushi chatbot interface on desktop and mobile]
-
----
 
 ## 🚀 Features
 
@@ -47,7 +40,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone https://github.com/debo-saha/chatwithme.git
     ```
 
 2.  **Navigate to the project directory:**
